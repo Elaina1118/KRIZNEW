@@ -26,13 +26,13 @@ const defaultMenu = {
 ∴┃𒆜  *Uptime* : _%uptime (%muptime)_
 ∴┃𒆜  *Database* : _%rtotalreg dari %totalreg_
 ∴┃𒆜  *Owner* : 
-⁙┃𒆜  *http://wa.me/62895335400834*
+⁙┃𒆜  *http://wa.me/919633687665*
 ∴╰┄━━━━┄➤`.trimStart(),
   header: '╭━━❰❬｢*%category*｣❭❱━┄➤',
   body: '┃⃝☠️%cmd %islimit %isPremium',
   footer: '╰━━┄➤\n',
   after: `
-*𝙏 𝙍𝙚𝙭 𝘽𝙤𝙩*
+*© KRIZSER*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -230,37 +230,37 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": `
 ╭┄━❰❬｢ Status ｣❭❱━┄⬣
-┊𒆜  *Aktif selama* _${uptime}_
-┃𒆜  *Baterai* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+┊𒆜  *Active* _${uptime}_
+┃𒆜  *Battery* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ┃𒆜  *${Object.keys(global.db.data.users).length}* Pengguna
 ┃𒆜  *${totaljadibot.length}* Jadibot
 ┃𒆜  *${conn.blocklist.length}* Terblock
 ┃𒆜  *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ┃𒆜  *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┃
-┃𒆜  *Group Official*:
-┊     https://chat.whatsapp.com/BTwX27VABko0eBRLmFnAL9
+┃𒆜  *MY BOT GROUP*:
+┊     https://chat.whatsapp.com/IwOZg4VGdJq4lTH12aPOzc
 ╰┄━━━━━━┄➤`.trim(),
-          "buttonText": "Klik Tod",
+          "buttonText": "CLICK HERE",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [
                 {
-                  "title": `[🧾] Semua Perintah`,
-                  "description": "Memberikan Semua Fitur Bot",
+                  "title": `[🧾]  ALL COMMANDS`,
+                  "description": "Provide all bot features",
                   "rowId": ".? all"
                 }, {
                   "title": "[🕋] Islam",
                   "description": "Menu Tentang Islam",
                   "rowId": ".? quran"
                 }, {
-                  "title": "[🏫] Edukasi",
-                  "description": "Menu Edukasi",
-                  "rowId": ".? edukasi"
+                  "title": "[🏫] Education",
+                  "description": "Menu Education",
+                  "rowId": ".? education"
                 }, {
                   "title": "[📰] News",
-                  "description": "Menu Berita",
+                  "description": "Menu News",
                   "rowId": ".? News"
                 },  {
                   "title": "[🎮] Game",
@@ -283,9 +283,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "Menu Buat Stiker",
                   "rowId": ".? stiker"
                 }, {
-                  "title": "[🐚] Kerang Ajaib",
-                  "description": "Menurut Kerang ajaib....",
-                  "rowId": ".? kerangajaib"
+                  "title": "[🐚] Magical Shells",
+                  "description": "According to Magical shells....",
+                  "rowId": ".? Miracher"
                 }, {
                   "title": "[📑] Quotes",
                   "description": "Menu Quotes",
@@ -300,15 +300,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? grup"
                 }, {
                   "title": "[🔝] Premium",
-                  "description": "Menu Untuk Premium",
+                  "description": "Menu For Premium",
                   "rowId": ".? premium"
                 }, {
                   "title": "[🖥️] Internet",
-                  "description": "Cari Sesuatu Di Bot",
+                  "description": "Find something on bot",
                   "rowId": ".? internet"
                 }, {
                   "title": "[🥷] Anonymous",
-                  "description": "Mainkan Anonymous Chat",
+                  "description": "Play Anonymous Chat",
                   "rowId": ".? anonymous"
                 }, {
                   "title": "[✒️] Nulis & Logo",
@@ -316,27 +316,27 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? nulis"
                 }, {
                   "title": "[📺] Downloader",
-                  "description": "Download Sesuatu Di Bot",
+                  "description": "Download something in Bot",
                   "rowId": ".? downloader"
                 }, {
                   "title": "[🔧] Tools",
-                  "description": "Tools Yang Bisa di Gunakan Di Bot",
+                  "description": "Tools which can be used on  Bot",
                   "rowId": ".? tools"
                 }, {
                   "title": "[🎇] Fun",
-                  "description": "Menu Ceria",
+                  "description": "Menu cheerful",
                   "rowId": ".? fun"
                 }, {
                   "title": "[📂] Database",
-                  "description": "Simpan Sesuatu Di Bot",
+                  "description": "Save something in Bot",
                   "rowId": ".? database"
                 }, {
                   "title": "[📝] Vote & Absen",
                   "description": "Menu Vote & Absen",
                   "rowId": ".? vote"
                 }, {
-                  "title": "[🎙️] Pengubah Suara",
-                  "description": "Ubah Suaramu",
+                  "title": "[🎙️] Voice modifier",
+                  "description": "Change your voice",
                   "rowId": ".? audio"
                 }, {
                   "title": "[🤖] Jadi Bot",
@@ -455,7 +455,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     throw e
   }
 }
-handler.help = ['menu', '?', 'help']
+handler.help = ['menu', 'Kriz', 'help']
 handler.tags = ['main']
 handler.command = /^(menu|\?|help)$/i
 
