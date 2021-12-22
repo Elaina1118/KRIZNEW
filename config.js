@@ -14,10 +14,10 @@
 gc1 = ''
 gc2 = ''
 gc3 = ''
-global.linkGC = ['https://chat.whatsapp.com/BTwX27VABko0eBRLmFnAL9'] // ganti jadi group lu
-global.owner = ['62895335400834'] // Put your number here //owner eval
-global.kontak = ['62895335400834'] //Ketika ada yang ngetik #owner
-global.mods = ['62895335400834'] // Want some help?
+global.linkGC = ['https://chat.whatsapp.com/IwOZg4VGdJq4lTH12aPOzc'] // ganti jadi group lu
+global.owner = ['919633687665'] // Put your number here //owner eval
+global.kontak = ['919633687665'] //Ketika ada yang ngetik #owner
+global.mods = ['919633687665'] // Want some help?
 global.prems = ['6289527393988'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -54,14 +54,14 @@ namakontak2 = 'Cantik'
 //kasihcaption = `Nih Kak`
 
 // Sticker WM
-global.packname = '𝙏 𝙍𝙚𝙭 𝘽𝙤𝙩' // ganti aja
-global.author = '𝙏 𝙍𝙚𝙭 𝘽𝙤𝙩' // ganti aja
+global.packname = 'KRIZSER™' // ganti aja
+global.author = 'KRIZSER™' // ganti aja
 
 //yyy
-bc = '𝙏 𝙍𝙚𝙭 𝘽𝙤𝙩' //RFK Broadcast
-footer = '\n©𝙏 𝙍𝙚𝙭'
-namabot = '𝙏 𝙍𝙚𝙭 𝘽𝙤𝙩'
-namalu = 'Udin'
+bc = 'KRIZSER™' //RFK Broadcast
+footer = '\n© KRIZSER'
+namabot = 'KRIZSER™'
+namalu = 'Krishnadas'
 
 
 // 
