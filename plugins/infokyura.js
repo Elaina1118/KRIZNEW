@@ -1,16 +1,17 @@
 let handler  = async (m, { conn, usedPrefix }) => { 
 conn.reply(m.chat, `
-╭─˗ˏˋ *Informasi Owner* ´ˎ˗
-│ ✎ Nama : Udin 
-│    Kelas : 12
-│    Umur : 10
-│    Asal : Indonesia 
-│    Status : gatau mw isi apa anj
-│    Suka : Jepang, Tante-Tante, Kamu<3
-│ ✎ _Official Grup_ :
-│    https://chat.whatsapp.com/BTwX27VABko0eBRLmFnAL9
+╭─˗ˏˋ *Information Owner* ´ˎ˗
+│ ✎ Name : Krishnadas
+│    Class : +1
+│    Age : 16
+│   Origin : India
+│    Status : Njan gud boy anu mwonu
+│    Device : IPHONE 13 PRO MAX
+│     BotNo : 917594898804
+│ ✎ _MY BOT GROUP_ :
+│    https://chat.whatsapp.com/IwOZg4VGdJq4lTH12aPOzc
 │ ✎ _WhatsApp_ :
-│    http://wa.me/62895335400834
+│    http://wa.me/919633687665
 ╰‿‿‿‿‿‿‿‿
 `.trim(), m)
 }
